@@ -9,7 +9,7 @@ import java.math.BigDecimal;
  */
 public class BorhaniModel {
     private String name;
-    private BigDecimal age;
+    private BigDecimal personAge;
     private BigDecimal slary;
 
 
