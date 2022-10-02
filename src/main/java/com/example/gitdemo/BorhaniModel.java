@@ -9,8 +9,8 @@ import java.math.BigDecimal;
  */
 public class BorhaniModel {
     private String name;
-    private BigDecimal personAge;
-    private BigDecimal slary;
+    private BigDecimal age;
+    private int salary;
 
 
     public String getName() {
@@ -33,7 +33,7 @@ public class BorhaniModel {
         return salary;
     }
 
-    public void setSlary(BigDecimal slary) {
-        this.slary = slary;
+    public void setSlary(int slary) {
+        this.salary = slary;
     }
 }

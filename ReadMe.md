@@ -145,7 +145,26 @@ Origin: Short name of GitHub links (Example: git push https://github.com/erfanak
 Develop: Tested and ready branch to use version for testers. Contains the latest features, Therefore ahead of all branches.
 
 ### ------------------------------------------------------------------------------------------------
+##Guide for resolving bugs and conflicts:
+### If during the command (git pull branchName) received the following error: 
+#### fatal: Could not read from remote repository.
+#### Please make sure you have the correct access rights
+#### and the repository exists.
 
+- Instead, use this command:
+git pull origin branchName
+
+#### ***********************************************************************
+### If during the command (git pull origin branchName) received the following error:
+### hint: You have divergent branches and need to specify how to reconcile them.
+### hint: You can do so by running one of the following commands sometime before
+### hint: your next pull
+- Instead, use this command:
+  git merge branchName
+#### ***********************************************************************
+### If during the command (git merge branchName) received the following error:
+CONFLICT (content): Merge conflict in src/main/java/com/example/gitdemo/BorhaniModel.java
+Automatic merge failed; fix conflicts and then commit the result.
 
 
 
