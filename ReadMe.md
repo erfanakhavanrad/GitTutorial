@@ -3,7 +3,7 @@
 
 2- git pull origin develop
 
-3- git checkout -b 'newbranchname'
+3- git checkout -b 'newBranchName'
 
 - After work is done:
 
@@ -55,6 +55,11 @@ Usage: git commit -m “[ Type in the commit message]”
 This command records or snapshots the file perman
 
 
+## git commit -am 'Type in the commit message'
+
+Usage: git commit -am 'Type in the commit message'
+
+ git add & git commit combined.
 
 ## git diff
 
@@ -136,6 +141,26 @@ Usage: git pull [Repository Link]
 
 This command fetches and merges changes on the remote server to your working directory.
 
+
+## git log --oneline
+
+Usage: git log --oneline
+
+Summarize the log in one line expressions
+
+
+## git tag tagName
+
+Usage: git tag 'version 1.0.0'
+
+First, local commits should be Tagged.
+Tag the commit where the commit head is by default.
+
+Tag the specific commit  git tag 'version 1.0.0' [commitID]
+
+Lastly, local tags should be pushed.
+git push origin [TagName]
+
 ### ------------------------------------------------------------------------------------------------
 
 ## Legend
@@ -163,11 +188,12 @@ git pull origin branchName
   git merge branchName
 #### ***********************************************************************
 ### If during the command (git merge branchName) received the following error:
-CONFLICT (content): Merge conflict in src/main/java/com/example/gitdemo/BorhaniModel.java
-Automatic merge failed; fix conflicts and then commit the result.
-
-
-
+### CONFLICT (content): Merge conflict in src/main/java/com/example/gitdemo/BorhaniModel.java
+### Automatic merge failed; fix conflicts and then commit the result.
+- Open commit section in you IDE (IntelliJ idea shortcut is Alt+O, VS Code shortcut is: Ctrl+Shift+G)
+Resolve your conflicts.
+Commit the changes and be sure to use a meaningful commit message.
+#### ***********************************************************************
 
 
 &copy;Erfan Akhavan Rad
