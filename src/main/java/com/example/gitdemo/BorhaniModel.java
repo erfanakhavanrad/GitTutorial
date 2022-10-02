@@ -29,8 +29,8 @@ public class BorhaniModel {
         this.age = age;
     }
 
-    public BigDecimal getSlary() {
-        return slary;
+    public int getSlary() {
+        return salary;
     }
 
     public void setSlary(BigDecimal slary) {
