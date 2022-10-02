@@ -97,15 +97,6 @@ Usage: git show [commit]
 This command shows the metadata and content changes of the specified commit.
 
 
-## git tag
-
-Usage: git tag [commitID]
-
-This command is used to give tags to the specified commit.
-
-Git Tag Command - Git Commands - Edureka
-
-
 ## git branch
 Usage: git branch -b [branch name]
 
@@ -151,12 +142,15 @@ Summarize the log in one line expressions
 
 ## git tag tagName
 
-Usage: git tag 'version 1.0.0'
+Usage: git tag [commitID]
 
+This command is used to give tags to the specified commit.
 First, local commits should be Tagged.
 Tag the commit where the commit head is by default.
 
+
 Tag the specific commit  git tag 'version 1.0.0' [commitID]
+
 
 Lastly, local tags should be pushed.
 git push origin [TagName]
