@@ -3,7 +3,8 @@
 ##Step 1:
 Open terminal anywhere in the linux system.
 
-##Step 2: Run the Following Command
+##Step 2: Run one of the the Following Commands (First one is preferred)
+sudo git config --global credential.credentialStore cache
 git config --global credential.credentialStore cache
 (It doesn't pop up any messages or so, just not having an error means it ran successfully)
 
