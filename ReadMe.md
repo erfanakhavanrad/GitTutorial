@@ -108,7 +108,14 @@ This command creates a new branch and checks out to it.
 Usage: git checkout [branch name]
 
 This command is used to switch from one branch to another.
-
+### ------------------------------------------------------------------------------------------------
+## Guide for resolving bugs and conflicts:
+  if you want to checkout into branch, write branch name:
+    git checkout <Branch Name>
+  if you want to checkout inot branch, write commit hashnumber:
+    git checkout <hashnumber>
+    *** git switch -
+    *** git switch c <New Branch Name>
 
 ## git merge
 
@@ -164,7 +171,7 @@ Origin: Short name of GitHub links (Example: git push https://github.com/erfanak
 Develop: Tested and ready branch to use version for testers. Contains the latest features, Therefore ahead of all branches.
 
 ### ------------------------------------------------------------------------------------------------
-##Guide for resolving bugs and conflicts:
+## Guide for resolving bugs and conflicts:
 ### If during the command (git pull branchName) received the following error: 
 #### fatal: Could not read from remote repository.
 #### Please make sure you have the correct access rights
@@ -172,7 +179,7 @@ Develop: Tested and ready branch to use version for testers. Contains the latest
 
 - Instead, use this command:
 git pull origin branchName
-
+  
 #### ***********************************************************************
 ### If during the command (git pull origin branchName) received the following error:
 ### hint: You have divergent branches and need to specify how to reconcile them.
