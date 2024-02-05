@@ -162,6 +162,25 @@ Tag the specific commit  git tag 'version 1.0.0' [commitID]
 Lastly, local tags should be pushed.
 git push origin [TagName]
 
+## git remote -v 
+
+Usage: git remote -v
+
+See fetch and push origins for the current repository.
+
+
+## git remote remove origin
+
+Usage: git remote remove origin
+
+See fetch and push origins for the current repository.
+
+
+## git remote add origin origin
+Usage: git remote add origin [OriginLink]
+
+
+
 ### ------------------------------------------------------------------------------------------------
 
 ## Legend
