@@ -179,6 +179,10 @@ See fetch and push origins for the current repository.
 ## git remote add origin origin
 Usage: git remote add origin [OriginLink]
 
+## git fetch --all
+Usage: git fetch --all
+Fetch all branches from all remotes
+
 
 
 ### ------------------------------------------------------------------------------------------------
